@@ -1,0 +1,29 @@
+<<<<<<< HEAD
+# Budget Agent project dependencies
+
+# Multi-agent orchestration framework used to define Agents, Tasks, and Crew workflow
+crewai
+
+# Search API client for future web-search/tool integration if external lookup is needed
+serperai
+
+# Loads environment variables from .env so API keys stay out of the source code
+python-dotenv
+
+# OpenAI Python client used for model access in the agent workflow
+openai
+=======
+# Budget Agent project dependencies
+
+# Multi-agent orchestration framework used to define Agents, Tasks, and Crew workflow
+crewai
+
+# Search API client for future web-search/tool integration if external lookup is needed
+serperai
+
+# Loads environment variables from .env so API keys stay out of the source code
+python-dotenv
+
+# OpenAI Python client used for model access in the agent workflow
+openai
+>>>>>>> f58081cc5d8a1dcf19e0d8514e2378331c80d2fe

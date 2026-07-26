@@ -1,0 +1,37 @@
+{
+  "income": {
+    "main_job_income": 5000,
+    "second_job_income": 0
+  },
+  "fixed_expenses": {
+    "rent":1500,
+    "utilities": 100,
+    "wifi": 60,
+    "other_fixed_expenses": 0
+  },
+  "variable_expenses": {
+    "groceries": 500,
+    "eating_out": 600,
+    "travel": 150,
+    "other_variable_expenses": 0
+  },
+  "debts": {
+    "student_loan_balance": 20000,
+    "student_loan_monthly_payment": 500,
+    "student_loan_interest_rate": 19.9,
+    "credit_card_balance": 0,
+    "credit_card_minimum_payment": 0,
+    "credit_card_extra_payment": 0,
+    "credit_card_interest_rate": 0
+  },
+  "savings": {
+    "current_savings_balance": 0,
+    "emergency_fund_balance": 0
+  },
+  "investments": {
+    "current_monthly_investment": 100
+  },
+  "goal": {
+    "user_priority": "save_more"
+  }
+}
