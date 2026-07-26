@@ -8,7 +8,9 @@ from crewai import Agent, Task, Crew, Process, LLM
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 PROMPTS_DIR = BASE_DIR / "prompts"
-SCHEMA_FILE = BASE_DIR / "schemas" / "budget_input_schema.json"
+REAL_SCHEMA = BASE_DIR / "schemas" / "budget_input_schema.json"
+EXAMPLE_SCHEMA = BASE_DIR / "schemas" / "budget_input_schema.example.json"
+SCHEMA_FILE = REAL_SCHEMA if REAL_SCHEMA.exists() else EXAMPLE_SCHEMA
 ENV_FILE = BASE_DIR / ".env"
 
 load_dotenv(ENV_FILE)
